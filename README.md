@@ -24,11 +24,11 @@ Yapay zeka ve görüntü işleme yöntemleri sayesinde anlık uydu görüntüler
 Şu anki aşamada ise Google Earth Engine Apps üzerinden alınan görüntü verileri ile Tensorflow derin öğrenme methotları kullanılarak evlerin hasarlı olup olmadıkları tespit edilmeye çalışılmıştır. Belirtilen duruma örnek case olarak işlemek üzere Karayipler'deki bir ada ülkesi olan Sint-Maarten'de yaşanan doğal afet seçilmiştir. Bu ada ülkesi 6 Eylül 2017'de Kategori 5 seviyesinde olan Irma Kasırgası tarafından önemli ölçüde hasar aldı ve yüzlerce ev yıkıldı. Google Earth Engine Apps'ten alınan aşağıdaki görüntülerde kasırga öncesi ve sonrası incelenen bölgenin afet durumu belirtilmiştir.
 
 <p align="center">
-  <img width="600" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/before-disaster.jpg"><br /><span>Doğal Afet Öncesi</span>
+  <img width="600" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/before-disaster.jpg"><br /><span>Doğal Afet Öncesi</span>
 </p>
 
 <p align="center">
-  <img width="600" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/after-disaster.jpg"><br /><span>Doğal Afet Sonrası</span>
+  <img width="600" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/after-disaster.jpg"><br /><span>Doğal Afet Sonrası</span>
 </p>
 
 Örnek case modeli için bu bölge üzerinde afet sonrası hasar almış 50 farklı ev rastgele seçilmiştir. Aşağıdak örnekte olduğu gibi toplamda 100 adet olan seçilen evlerin afetten önce ve sonraki görüntüleri [test_images](https://github.com/oreitor/google-hack-for-prosperity-hackathon/tree/main/test_images) klasöründe toplanmış ve modeli test etmeye hazır hale getirilmiştir. 
