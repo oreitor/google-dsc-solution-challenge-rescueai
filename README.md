@@ -63,12 +63,10 @@ Aşağıda görüldüğü gibi derin öğrenme modeli için hazırlanan test gö
 </p>
 
 ### Flutter ile Mobil Uygulama
-Flutter ile Geliştirilen Mobil Uugulama sayesinde afet bölgesindeki ekipler harita üzerinden anlık olarak durum takibi yapabilmesi amaçlanmıştır. Bununla birlikte bölge üzerinde afet bilgisi, destek noktaları, insansız hava aracı bilgisi, ekipler için haberleşme ağı, yardım talebi ve durum bildirme gibi ana fonksiyonları bulunan kullanıcı dostu basit bir RescueAI uygulaması tasarlanmıştır. Yan fonksiyonları ve eklenecek yapay zeka çözümleri ile geliştirilmeye oldukça müsaittir. RescueAI markası üzerinde temellendirilen uygulamanın giriş görüntüsü, arayüzü ve harita sayfası aşağıda belirtilmiştir. 
+Flutter ile Geliştirilen Mobil Uugulama sayesinde afet bölgesindeki ekipler harita üzerinden anlık olarak durum takibi yapabilmesi amaçlanmıştır. Bununla birlikte bölge üzerinde afet bilgisi, destek noktaları, insansız hava aracı bilgisi, ekipler için haberleşme ağı, yardım talebi ve durum bildirme gibi ana fonksiyonları bulunan kullanıcı dostu basit bir RescueAI uygulaması tasarlanmıştır. Yan fonksiyonları ve eklenecek yapay zeka çözümleri ile geliştirilmeye oldukça müsaittir. RescueAI markası üzerinde temellendirilen uygulamanın giriş görüntüsü, arayüzü ve harita sayfası aşağıdaki mock up'ta belirtilmiştir. 
 
 <p align="center">
-  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/intro.png"><span> &emsp;&emsp;</span>
-  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/index.png"><span> &emsp;&emsp;</span>
-  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/map.png">
+  <img width="1000" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/mockup.png"><span>RescueAI MockUp</span>
 </p>
 
 Uygulamada kullanılan harita, Google servislerinden biri olan Google Cloud üzerinden alınmış ve Google Maps Platform tarafından sunulan API'lar kullanılarak oluşturulmuştur. 
