@@ -13,7 +13,6 @@ Hackathon'un bu aşamasında RescueAI için belirlenen ana hedef, yaşanan bir d
 #### Kullanılan Google Teknolojileri
 * Tensorflow
 * Flutter
-* Google Cloud AutoML
 * Google Cloud
 * Google Maps Platform API's
 * Google Earth Engine Apps
@@ -44,6 +43,8 @@ Hackathon süresinin kısıtlı olması ve profesyonel bir derin öğrenme model
 
 *Structural Building Damage Detection with Deep Learning: Assessment of a State-of-the-Art CNN in Operational Conditions* başlıklı belirlenen bilimsel çalışma ile ilgili ayrıntılı bilgiye [buradan](https://www.mdpi.com/2072-4292/11/23/2765/htm) ulaşabilirsiniz. RescueAI yapay zeka [modeli](https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/uav.rar) için bu çalışmada içerisinde bulunan İnsansız Hava Aracı tarafından çekilen görüntüler ile eğitilmiş toplam 2,336,725 parametre bulunan model tercih edilmiştir. 
 
+Projenin ilerleyen süreçlerinde ise Google Cloud AutoML kullanılması düşünülmüştür. Böylelikle Tensorflow üzerinde kullanılacak derin öğrenme modellerinin daha rahat bir şekilde kullanılması mümkün hale gelecektir. 
+
 #### Test Sonucu
 Belirtilen çalışma üzerinde modelin test doğruluğu %90.8 olmasına karşın bu projede seçilen rastgele 100 görüntünün testinin doğruluk oranı %81'dir. Aradaki farkın sebepleri ise harita üzerinden alınan görüntülerin kalitesi ve konumlandırma yöntemlerinin farklı olmasıyla ilgilidir. Aşağıda RescueAI'ın ilk model denemesindeki test sonuçları ile ilgili *Confusion Matrix* görülmektedir. F1 Score sonucu 0.8257 ile şu an için yeterli düzeydedir.
 
@@ -62,4 +63,12 @@ Aşağıda görüldüğü gibi derin öğrenme modeli için hazırlanan test gö
 </p>
 
 ### Flutter ile Mobil Uygulama
-Yapay zeka ve görüntü işleme yöntemleri sayesinde anlık uydu görüntüleri veya gönderilen bir drone ile afet bölgesi üzerinde otonom bir şekilde hasar tespiti, durum bilgisi veya öneriler sunulması istenmiştir.
+Flutter ile Geliştirilen Mobil Uugulama sayesinde afet bölgesindeki ekipler harita üzerinden anlık olarak durum takibi yapabilmesi amaçlanmıştır. Bununla birlikte bölge üzerinde afet bilgisi, destek noktaları, insansız hava aracı bilgisi, ekipler için haberleşme ağı, yardım talebi ve durum bildirme gibi ana fonksiyonları bulunan kullanıcı dostu basit bir RescueAI uygulaması tasarlanmıştır. Yan fonksiyonları ve eklenecek yapay zeka çözümleri ile geliştirilmeye oldukça müsaittir. RescueAI markası üzerinde temellendirilen uygulamanın giriş görüntüsü, arayüzü ve harita sayfası aşağıda belirtilmiştir. 
+
+<p align="center">
+  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/intro.png"><span> &emsp;&emsp;</span>
+  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/index.png"><span> &emsp;&emsp;</span>
+  <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/map.png">
+</p>
+
+Uygulamada kullanılan harita, Google servislerinden biri olan Google Cloud üzerinden alınmış ve Google Maps Platform tarafından sunulan API'lar kullanılarak oluşturulmuştur. 
