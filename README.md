@@ -2,7 +2,7 @@
 
 This page related to RescueAI project prepared for Solution Challenge 2021 organized by Google Developer Student Clubs.
 
-The purpose is to contribute to the [*Sustainable Development Goals*](https://www.tr.undp.org/content/turkey/tr/home/sustainable-development-goals.html) announced by the United Nations with the RescueAI solutions which we developed using Google technologies. This project is about Reducing the *Negative Effects of Natural Disasters (Target 11.5)* under the title of *Sustainable Cities and Communities (Goal 11)*.
+The purpose is to contribute to the [*Sustainable Development Goals*](https://sdgs.un.org/goals) announced by the United Nations with the RescueAI solutions which we developed using Google technologies. This project is about Reducing the *Negative Effects of Natural Disasters (Target 11.5)* under the title of *Sustainable Cities and Communities (Goal 11)*.
 
 <p align="center">
   <img width="600" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/RescueAI.png">
