@@ -16,6 +16,9 @@ The main goal determined for RescueAI is to make the search-rescue and emergency
 * Flutter
 * Maps Platform API's
 
+### Deep Learning with TensorFlow
+Thanks to Artificial Intelligence and Computer Vision methods, it was requested to provide damage detection, status information or suggestions autonomously on the disaster area with instant satellite images or drone.
+
 #### Dataset for Deep Learning Model Testing
 In this stage, RescueAI can determine high accuracy whether buildings are Damaged or Normal with TensorFlow using the image data obtained from Google Earth Engine Apps. Natural disaster in Sint-Maarten, an island country in the Caribbean, has been chosen to serve as an exemplary case for testing RescueAI algorithm. This island was severely damaged by Hurricane Irma, Category 5, on September 6, 2017, and hundreds of houses were destroyed. In the following images taken from Google Earth Engine Apps, the disaster situation of the region examined before and after the hurricane is indicated.
 
@@ -33,9 +36,6 @@ For the sample case model, 50 different houses damaged after the disaster were r
   <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/test_images/a43.png"><span> &emsp;</span>
   <img width="200" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/test_images/b43.png">
 </p>
-
-### Deep Learning with TensorFlow
-Thanks to Artificial Intelligence and Computer Vision methods, it was requested to provide damage detection, status information or suggestions autonomously on the disaster area with instant satellite images or drone.
 
 #### Deep Learning Model and Parameters
 Transfer Learning applications were preferred due to hardware limitations and the desire to create a professional deep learning model. With the trained Deep Learning model obtained from the scientific study encountered during the literature review, the process was accelerated with Transfer Learning through TensorFlow.
@@ -59,7 +59,7 @@ If we look at the random results taken from the test images prepared for the dee
   <img width="500" src="https://github.com/oreitor/google-hack-for-prosperity-hackathon/blob/main/img/prediction.PNG"><br /><span>Test Result</span>
 </p>
 
-### Flutter ile Mobil Uygulama
+### Mobile Application with Flutter
 Thanks to the Mobile Application Developed with Flutter, it is aimed that the teams in the disaster area can follow the situation instantly on the map. In addition, a simple, user-friendly RescueAI application has been designed in the region with main functions such as disaster information, support points, unmanned aerial vehicle information, communication network for teams, help request and status reporting. It is quite suitable for development with its side functions and AI solutions to be added. The design interfaces of the RescueAI brand are shown in the mock-up below.
 
 The map used in the application was created using API's provided by Google Maps Platform.
